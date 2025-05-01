@@ -23,8 +23,26 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ### PROGRAM
 
 ```
+#Reg_no: 212223060288
+#Name: Tharun Kumaran G
+
+def replace_word_in_string():
+    original_string = input("Enter the original string: ")
+    old_word = input("Enter the word to be replaced: ")
+    new_word = input("Enter the new word: ")
+    updated_string = original_string.replace(old_word, new_word)
+    
+    print("Updated string:", updated_string)
+
+replace_word_in_string()
+
+
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/b84fd22e-f37d-4fe4-bd7d-379d79aebf95)
+
 ### RESULT
+
+The python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user has been executed and verified successfully.
