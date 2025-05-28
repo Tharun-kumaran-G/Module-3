@@ -1,22 +1,22 @@
 # Exp.No:3a
-## STRING - FIND AND REPLACE
-
+## STRING - COUNT THE VOWELS OF A GIVEN STRING.
 ---
 
 ### AIM  
-To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
+To write a Python function to count the vowels of a given string.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Input the original string `str1` and the word to be replaced `replace_str`.  
-3. Ask the user to input the new replacement word `str2`.  
-4. Use the `replace()` method in Python to replace all occurrences of `replace_str` in `str1` with `str2`.  
-5. Store the modified string in `str3`.  
-6. Display the original string (`str1`) and the modified string (`str3`).  
-7. Terminate the program.
+1. Take a string input from the user.
+2. Initialize a dictionary to count vowels (`a`, `e`, `i`, `o`, `u`).
+3. Set a flag variable to `False`.
+4. Loop through each character in the string.
+5. If the character is a vowel, increment its count and set the flag to `True`.
+6. After the loop, if the flag is still `False`, print "There are no vowels".
+7. Otherwise, print each vowel and its count if the count is not zero.
+
 
 ---
 
@@ -26,23 +26,33 @@ To write a Python function to accept a string, identify a word to be replaced, a
 #Reg_no: 212223060288
 #Name: Tharun Kumaran G
 
-def replace_word_in_string():
-    original_string = input("Enter the original string: ")
-    old_word = input("Enter the word to be replaced: ")
-    new_word = input("Enter the new word: ")
-    updated_string = original_string.replace(old_word, new_word)
-    
-    print("Updated string:", updated_string)
+str=input()
 
-replace_word_in_string()
+vow={'a':0,'e':0,'i':0,'o':0,'u':0}
+
+flag=False
+
+for i in str:
+
+if i in vow:
+    vow[i]+=1
+    flag=True
+if flag==False:
+
+print(f"There are no vowels in {str}")
+else:
+
+for i in vow:
+    if vow[i]:
+        print(f"Vowel:  {i} {vow[i]}")
 
 
 ```
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/b84fd22e-f37d-4fe4-bd7d-379d79aebf95)
+![image](https://github.com/user-attachments/assets/a64232fb-b5b6-43d0-a660-1c2eaac4d5c5)
 
 ### RESULT
 
-The python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user has been executed and verified successfully.
+The python function to count the vowels of a string has been executed and verified successfully.
