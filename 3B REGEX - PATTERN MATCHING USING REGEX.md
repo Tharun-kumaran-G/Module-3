@@ -42,7 +42,7 @@ match_a_bb_or_bbb()
 ```
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/a7df8310-9e12-462f-956f-afd2aa2e13db)
+![image](https://github.com/user-attachments/assets/80fbefc7-c447-4fe5-966a-0d4d04f785e9)
 
 ### RESULT
 
