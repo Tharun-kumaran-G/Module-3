@@ -28,9 +28,9 @@ To write a Python function that accepts a number **N** and creates a list contai
 #Name: Tharun Kumaran G
 
 def get_even_numbers_up_to_n():
-    N = int(input("Enter a number: "))
+    N = int(input())
     even_numbers = [num for num in range(0, N + 1) if num % 2 == 0]
-    print("Even numbers up to", N, ":", even_numbers)
+    print(even_number)
 
 get_even_numbers_up_to_n()
 
@@ -38,7 +38,7 @@ get_even_numbers_up_to_n()
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/fc53552b-1e18-4e8c-985e-090d070579e5)
+![image](https://github.com/user-attachments/assets/ad504145-152e-41a3-9ca8-4c2cc493eae8)
 
 ### RESULT
 
