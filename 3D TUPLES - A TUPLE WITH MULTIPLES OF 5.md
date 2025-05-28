@@ -36,7 +36,7 @@ create_multiples_of_5_tuple()
 
 ### OUTPUT
 
-![image](https://github.com/user-attachments/assets/3b5f138d-71c6-41d9-98a7-616a9c848e9d)
+![image](https://github.com/user-attachments/assets/69217903-b2ec-44c0-b744-ef6d8647653e)
 
 ### RESULT
 
